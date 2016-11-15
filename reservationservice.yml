@@ -2,3 +2,11 @@ server:
   port: 9999
 
 message: My new message from Config Server
+
+management:
+  shell:
+    auth:
+      simple:
+        user:
+          name: admin
+          password: pass
