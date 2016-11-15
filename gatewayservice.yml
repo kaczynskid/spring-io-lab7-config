@@ -1,0 +1,8 @@
+server:
+  port: 9000
+
+zuul:
+  ignoredServices: configservice,gatewayservice,reservationclient,reservationservice
+  routes:
+    reservationclient: /client/**
+    reservationservice: /service/**
