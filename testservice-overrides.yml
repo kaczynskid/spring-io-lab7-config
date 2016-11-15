@@ -1,0 +1,6 @@
+this:
+  is:
+    override: override value
+
+simple:
+  prop: override
