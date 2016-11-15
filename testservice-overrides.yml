@@ -3,4 +3,4 @@ this:
     override: override value
 
 simple:
-  prop: override
+  prop: dev override
