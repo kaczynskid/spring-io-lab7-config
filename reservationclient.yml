@@ -1,2 +1,13 @@
 server:
   port: 9898
+
+---
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        createReservation:
+          destination: newReservations
+          group: reservations
+          durableSubscription: true

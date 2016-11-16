@@ -2,6 +2,8 @@ graphite:
   host: localhost
   port: 2003
 
+---
+
 spring:
   zipkin:
     baseUrl: http://localhost:8070/
@@ -11,3 +13,10 @@ spring:
     log:
       json:
         enabled: true
+
+---
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
